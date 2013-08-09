@@ -19,6 +19,7 @@ local -a common_ops
 common_ops=(
   {-v,--version}"[Display version information]"
   {-h,--help}"[Display help documentation]"
+  {-t,--trace}"[Display backtrace when an error occurs]"
   {-p,--plugins}"[Plugins directory (defautls to ./_plugins)]: :_directories"
   {-s,--source}"[Source directory (defaults to ./)]: :_directories"
   {-d,--destination}"[Destination directory (defautls to ./_site)]: :_directories"
